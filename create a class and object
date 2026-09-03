@@ -1,0 +1,17 @@
+class student:
+    name = "KPRIT"
+    age = 15
+    rollno = 156
+    def read(self):
+        age = 10
+        print(self.age)
+        print("Reading")
+    def write(self):
+        print("Writing")
+
+s1 = student()
+print(s1.name)
+print(s1.age)
+print(s1.rollno)
+s1.read()
+s1.write()
