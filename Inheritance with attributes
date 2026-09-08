@@ -1,0 +1,9 @@
+class student:
+    name = "KPRIT"
+    age = 25
+class CSEstudents(student):
+    branch = "CSEg&f"
+fg = CSEstudents
+print(fg.name)
+print(fg.age)
+print(fg.branch)
