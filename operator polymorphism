@@ -1,0 +1,7 @@
+class Addition:
+  def add(self, a, b):
+    print(a + b)
+
+a = Addition()
+a.add(10, 20)
+a.add("Hello","World")
