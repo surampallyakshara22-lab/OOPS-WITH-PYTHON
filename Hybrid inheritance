@@ -1,0 +1,22 @@
+class Person:
+  def show_person(self):
+    print("Person")
+
+class Student(Person):
+  def show_student(self):
+    print("Student")
+
+class Employee(Person):
+  def show_employee(self):
+    print("Employee")
+
+class WorkingStudent(Student,Employee):
+  def show_working_student(self):
+    print("Working Student")
+
+W = WorkingStudent()
+
+W.show_person()
+W.show_student()
+W.show_employee()
+W.show_working_student()
