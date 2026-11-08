@@ -1,0 +1,18 @@
+class Bank_Account:
+  account_holder_name="Akshara"
+  account_number=2411009944
+  Balance=20000
+  def deposit(self,amount=200):
+    Total_Balance=amount+self.Balance
+    print(Total_Balance)
+  def with_drawal(self,amount=300):
+    print(amount)
+  def Display_balance(self):
+    if(self.Balance==0):
+      print("Normal")
+    else:
+      print(self.Balance)
+SBI=Bank_Account()
+SBI.deposit()
+SBI.with_drawal()
+SBI.Display_balance()
