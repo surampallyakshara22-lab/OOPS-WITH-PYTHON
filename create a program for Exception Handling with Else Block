@@ -1,0 +1,10 @@
+try:
+  I=[10,20,30]
+  n=int(input("enter Index:"))
+  print(I[n])
+except IndexError:
+  print("index out of range")
+except ValueError:
+  print("enter number only")
+else:
+  print("no error")
