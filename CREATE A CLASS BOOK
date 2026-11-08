@@ -1,0 +1,20 @@
+class Book:
+  B_ID="XYZ"
+  B_Name="ABC"
+  B_Author="DEF"
+  B_availability="YES/NO"
+  def display_Book(self):
+    print(self.B_ID)
+    print(self.B_Name)
+    print(self.B_Author)
+    print(self.B_availability)
+  def issue_Book(self):
+    Book=input("Enter Book Name:")
+    print("Book is issued")
+  def return_Book(self):
+    print("Book is returned")
+
+B=Book()
+B.display_Book()  
+B.issue_Book() 
+B.return_Book() 
