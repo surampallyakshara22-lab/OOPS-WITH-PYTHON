@@ -1,0 +1,28 @@
+class Shape:
+  def Area(self):
+    print("Area")
+class Circle(Shape):
+  radius=6
+  def Area(self):
+    A=3.14*self.radius*self.radius
+    print(A)
+class Rectangle(Shape):
+  lenght=12
+  breadth=15
+  def Area(self):
+    A=12*15
+    print(A)
+class Triangle(Shape):
+  lenght=0.5
+  base=3
+  height=5
+  def Area(self):
+    A=0.5*self.base*self.height
+    print(A)
+
+c=Circle()
+c.Area()
+r=Rectangle()
+r.Area()
+t=Triangle()
+t.Area()
