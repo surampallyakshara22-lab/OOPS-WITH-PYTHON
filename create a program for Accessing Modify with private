@@ -1,0 +1,6 @@
+class KPRIT:
+  __Blocks=4
+class COE(KPRIT):
+  Places=3
+C=COE()
+print(C._KPRIT__Blocks)
