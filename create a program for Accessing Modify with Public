@@ -1,0 +1,12 @@
+class Laptop:
+  colour="white"
+  model="DELL"
+  display=15.4
+  def gaming(self):
+    print("Freefire")
+  def coding(self):
+    print("coding")
+L=Laptop
+print(L.colour)
+print(L.model)
+print(L.display)
