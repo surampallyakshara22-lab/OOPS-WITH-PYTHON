@@ -1,0 +1,13 @@
+class student:
+  def __init__(self):
+    self.name="deepu"
+    self.age=19
+  def set(self,name,age):
+    self.name=name
+    self.age=age
+S=student()
+print(S.name)
+print(S.age)
+S.set("akshu",18)
+print(S.name)
+print(S.age)
